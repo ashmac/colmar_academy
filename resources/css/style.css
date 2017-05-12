@@ -34,6 +34,7 @@ ul {
 
 li {
   padding-left: 16px;
+  list-style: none;
 }
 
 
@@ -44,16 +45,59 @@ li {
   color: slategray;
 }
 
-  .first-image img {
-  width: 80%;
-  padding: 32px 40px 32px 24px;
-
+  .first-image {
+    margin: 32px 24px;
+    width: 60%;
+    height: auto;
 }
+  .first-image img {
+    height: 100%;
+    width: 100%;
+
+  }
 .right-block {
   display: flex;
 }
 .banner-words {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  color: lightgray;
+  display: flex;
   justify-content: center;
+  padding: 16px;
+  margin-right: 25px;
+  width: 40%;
+
+}
+
+.second-banner {
+  display: flex;
+}
+
+.hurt {
+  margin: 32px 24px;
+  width: 60%;
+  height: auto;
+}
+
+.hurt img {
+  height: auto;
+  width: 100%;
+
+}
+.info-box {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightgray;
+}
+
+.info-box img {
+
 }
