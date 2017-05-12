@@ -99,5 +99,45 @@ li {
 }
 
 .info-box img {
+  width: 80%;
+  height: auto;
+  padding: 16px;
 
+}
+
+.info-words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-words span {
+  font-weight: bold;
+  font-size: 2rem;
+  color: slategray;
+}
+
+.third-banner {
+  background-color: lightgray;
+  color: slategray;
+}
+.third-banner h2 {
+  padding: 32px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.items {
+  background-color: #fff;
+  flex-direction: column;
+  width: 25%;
+  margin: 1rem;
+}
+.items img {
+  width: 100%;
 }
