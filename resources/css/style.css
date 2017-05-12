@@ -141,3 +141,17 @@ li {
 .items img {
   width: 100%;
 }
+
+.fourth-banner h2 {
+  padding: 32px;
+  text-align: center;
+}
+
+.fouth-banner .presentation {
+  margin: 32px 24px;
+  width: 60%;
+  height: auto;
+}
+.video {
+  width: 60%;
+}
