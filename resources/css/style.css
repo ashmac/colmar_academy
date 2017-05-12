@@ -10,3 +10,29 @@ header {
 .container img {
   padding-left: 24px;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-left: 16px;
+}
+.first-banner {
+  background-color: lightgray;
+  font-size: 30px;
+  color: slategray;
+}
+.first-banner img {
+  width: 60%;
+  padding: 32px 40px 24px;
+
+}
