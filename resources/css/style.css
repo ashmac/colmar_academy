@@ -7,13 +7,17 @@ body {
 }
 
 header {
-
   height: 64px;
 
 }
+.container {
+  padding-top: 12px
+}
+
 .container img {
   padding-left: 24px;
 }
+
 .container span {
   font-size: 30px;
   padding: 10px;
@@ -40,7 +44,6 @@ li {
 
 .first-banner-flex {
   display: flex;
-  justify-content: center;
   background-color: lightgray;
   color: slategray;
 }
@@ -90,7 +93,18 @@ li {
 .hurt img {
   height: auto;
   width: 100%;
+  padding-bottom: 32px;
 
+}
+
+.hurt span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: slategray;
+}
+
+.hurt p {
+  padding-top: 24px;
 }
 .info-box {
   display: flex;
@@ -115,6 +129,12 @@ li {
   font-weight: bold;
   font-size: 2rem;
   color: slategray;
+
+}
+
+.info-words p {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .third-banner {
@@ -131,24 +151,44 @@ li {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 2rem;
   padding-bottom: 32px;
 
 }
-.items {
+.item {
   background-color: white;
-  
-
+  display: grid;
+  width: 30%;
+  margin-bottom: 1rem;
 }
 
-.items img {
+.item img {
   width: 100%;
 }
 
+.item-words {
+  padding-top: 16px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+}
+
+.item-words span {
+  font-weight: bold;
+  color: slategray;
+}
+
+.item-words  p {
+  font-weight: lighter;
+  padding-top: 8px;
+}
 .title {
   display: flex;
   justify-content: center;
+  padding: 32px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: slategray;
 }
 .presentation-banner {
   display: flex;
@@ -160,7 +200,16 @@ li {
 }
 video {
   width: 100%;
+  padding-bottom: 24px;
 }
+
+.presentation-display span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: slategray;
+}
+
+
 
 .thesis-box {
   display: flex;
@@ -174,5 +223,7 @@ video {
   width: 90%;
 }
 .thesis-words {
-  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
