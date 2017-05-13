@@ -126,18 +126,16 @@ li {
   text-align: center;
 }
 
-.flex-container {
+.flex-container .items {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .items {
-  background-color: #fff;
-  flex-direction: column;
-  width: 25%;
-  margin: 1rem;
+  width: 33%;
+  background-color: white
 }
+
 .items img {
   width: 100%;
 }
