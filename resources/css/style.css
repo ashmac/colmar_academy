@@ -64,11 +64,22 @@ li {
 .banner-words {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
+.banner-words h1 {
+  font-weight: bold;
+  color: slategray;
+  font-size: 36px;
+  padding-bottom: 36px;
+}
+
+.banner-words h3 {
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
 .button {
   background-color: black;
   color: lightgray;
@@ -226,4 +237,19 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.thesis-words span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: slategray;
+  padding-bottom: 32px;
+}
+
+.footer {
+  padding-left: 24px;
+}
+@media only screen and (max-width: 470px)
+.container {
+  
 }
