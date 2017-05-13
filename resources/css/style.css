@@ -142,16 +142,33 @@ li {
   width: 100%;
 }
 
-.fourth-banner h2 {
-  padding: 32px;
-  text-align: center;
+.title {
+  display: flex;
+  justify-content: center;
+}
+.presentation-banner {
+  display: flex;
 }
 
-.fouth-banner .presentation {
+.presentation-display {
   margin: 32px 24px;
-  width: 60%;
-  height: auto;
+  width: 609px;
 }
-.video {
-  width: 60%;
+video {
+  width: 100%;
+}
+
+.thesis-box {
+  display: flex;
+  flex-direction: row;
+  width: 423px;
+  height: 168px;
+  padding: 16px;
+}
+
+.thesis-box img {
+  width: 90%;
+}
+.thesis-words {
+  text-align: start;
 }
