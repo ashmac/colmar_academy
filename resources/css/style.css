@@ -1,13 +1,16 @@
+/* Fonts */
 
 html {
   font-size: 16px;
 }
 body {
-  font-family: helvetica;
+  font-family: "Roboto Condensed";
 }
 
 header {
   height: 64px;
+  color: #5f0f4e;
+
 
 }
 .container {
@@ -33,7 +36,7 @@ ul {
   margin-right: 1rem;
   display: flex;
   flex-direction: row
-  font-size: 20px;
+
 }
 
 li {
@@ -41,11 +44,18 @@ li {
   list-style: none;
 }
 
+p {
+  color: #5f0f4e;
+}
+
+.cta {
+  color: #e52a6f;
+}
 
 .first-banner-flex {
   display: flex;
-  background-color: lightgray;
-  color: slategray;
+  background-color: #67aeca;
+  color: white;
 }
 
   .first-image {
@@ -71,7 +81,7 @@ li {
 
 .banner-words h1 {
   font-weight: bold;
-  color: slategray;
+  color: white;
   font-size: 36px;
   padding-bottom: 36px;
 }
@@ -111,7 +121,7 @@ li {
 .hurt span {
   font-size: 2rem;
   font-weight: bold;
-  color: slategray;
+  color: #675682;
 }
 
 .hurt p {
@@ -120,7 +130,7 @@ li {
 .info-box {
   display: flex;
   flex-direction: row;
-  border: 1px solid lightgray;
+  border: 1px solid #67aeca;
 }
 
 .info-box img {
@@ -139,7 +149,7 @@ li {
 .info-words span {
   font-weight: bold;
   font-size: 2rem;
-  color: slategray;
+  color: #675682;
 
 }
 
@@ -149,14 +159,15 @@ li {
 }
 
 .third-banner {
-  background-color: lightgray;
-  color: slategray;
+  background-color: #67aeca;
+
 }
 .third-banner .title {
   padding: 32px;
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
+  color: white;
 }
 
 .flex-container {
@@ -186,7 +197,7 @@ li {
 
 .item-words span {
   font-weight: bold;
-  color: slategray;
+  color: #675682;
 }
 
 .item-words  p {
@@ -199,7 +210,7 @@ li {
   padding: 32px;
   font-size: 3rem;
   font-weight: bold;
-  color: slategray;
+  color: #675682;
 }
 .presentation-banner {
   display: flex;
@@ -217,10 +228,12 @@ video {
 .presentation-display span {
   font-size: 1.5rem;
   font-weight: bold;
-  color: slategray;
+  color: #675682;
 }
 
-
+.presentation-display p {
+  padding-top: 24px;
+}
 
 .thesis-box {
   display: flex;
@@ -242,14 +255,10 @@ video {
 .thesis-words span {
   font-weight: bold;
   font-size: 1.5rem;
-  color: slategray;
+  color: #675682;
   padding-bottom: 32px;
 }
 
 .footer {
   padding-left: 24px;
-}
-@media only screen and (max-width: 470px)
-.container {
-  
 }
