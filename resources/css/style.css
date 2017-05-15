@@ -31,6 +31,16 @@ nav {
   justify-content: space-between;
 }
 
+.mobile {
+  display: none;
+}
+
+@media only screen and (max width: 450px) {
+  nav.mobile {
+    display: none;
+  }
+}
+
 ul {
   margin-right: 1rem;
   display: flex;
@@ -43,7 +53,7 @@ li {
   list-style: none;
 }
 
-li:active {
+li:visited {
   color: #675682;
 }
 
@@ -57,6 +67,7 @@ p {
 .cta1 {
   color: white;
 }
+
 .first-banner-flex {
   display: flex;
   background-color: #67aeca;
@@ -130,6 +141,12 @@ p {
   margin: 32px 24px;
   width: 60%;
   height: auto;
+}
+
+@media only screen and (max width: 450px) {
+  .hurt {
+    display: none;
+  }
 }
 
 .hurt img {
@@ -216,6 +233,14 @@ p {
   margin-bottom: 1rem;
 }
 
+@media only screen and (max width: 450px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+  }
+}
+
 .item:hover {
   background-color: #e52a6f;
   opacity: 0.7;
@@ -237,9 +262,21 @@ p {
   color: #675682;
 }
 
+@media only screen and (max width: 450px) {
+  .item-words span {
+    padding: 16px;
+  }
+}
+
 .item-words  p {
   font-weight: lighter;
   padding-top: 8px;
+}
+
+@media only screen and (max width: 450px) {
+  .item-words p {
+    display: none;
+  }
 }
 
 .item-words:hover {
@@ -276,6 +313,11 @@ video {
 
 .presentation-display p {
   padding-top: 24px;
+}
+@media only screen and (max width: 450px) {
+  .thesis {
+    display: none;
+  }
 }
 
 .thesis-box {
@@ -315,11 +357,4 @@ transition: 0.2s ease-in;
 .footer {
   padding-left: 24px;
   height: 64px;
-}
-
-@media only screen and (max width 375px) {
-  .first-image img {
-    display: none;
-  }
-
 }
