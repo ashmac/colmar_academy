@@ -16,6 +16,10 @@ header {
   padding-top: 12px
 }
 
+.container:hover {
+  color: #675682;
+  transition: 0.2s ease-in;
+}
 .container img {
   padding-left: 24px;
 }
@@ -71,6 +75,10 @@ li a:hover {
   transition: 0.2s ease-in;
 }
 
+li a:visited {
+  color: #5f0f4e;
+}
+
 p {
   color: #5f0f4e;
 }
@@ -93,7 +101,10 @@ p {
   width: 60%;
   height: auto;
 }
-
+.first-image:hover {
+  opacity: 0.4;
+  transition: 0.3s ease-in;
+}
 @media only screen and (max-width: 450px) {
   .first-image {
     display: none;
@@ -194,6 +205,11 @@ p {
   width: 100%;
   padding-bottom: 32px;
 
+}
+
+.hurt img:hover {
+  opacity: 0.4;
+  transition: 0.3s ease-in;
 }
 
 .hurt span {
@@ -417,6 +433,11 @@ video {
   padding-bottom: 24px;
 }
 
+video:hover {
+  opacity: 0.4;
+  transition: 0.3s ease-in;
+}
+
 .presentation-display span {
   font-size: 1.5rem;
   font-weight: bold;
@@ -452,7 +473,7 @@ video {
 .thesis-box:hover {
   background-color: #67aeca;
   opacity: 0.5;
-  transition: 0.2s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .thesis-image {
